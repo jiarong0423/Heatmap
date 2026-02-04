@@ -16,6 +16,7 @@ import yfinance as yf
 import pandas as pd
 import json
 from datetime import datetime
+from zoneinfo import ZoneInfo
 from pathlib import Path
 from typing import Dict, List, Optional
 
@@ -96,7 +97,9 @@ class SectorFlowTracker:
     """美股板塊資金流向追蹤器 (合併版)"""
     
     def __init__(self):
-        self.timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        # 使用台北時區作為所有輸出與紀錄的時間基準
+        self.tz = ZoneInfo('Asia/Taipei')
+        self.timestamp = datetime.now(self.tz).strftime('%Y-%m-%d %H:%M:%S %Z')
         self.results = []
         self.output_dir = Path('output')
         self.output_dir.mkdir(exist_ok=True)
