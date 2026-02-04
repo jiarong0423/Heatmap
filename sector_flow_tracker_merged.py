@@ -16,6 +16,7 @@ import yfinance as yf
 import pandas as pd
 import json
 from datetime import datetime
+from zoneinfo import ZoneInfo
 from pathlib import Path
 from typing import Dict, List, Optional
 
@@ -96,10 +97,16 @@ class SectorFlowTracker:
     """美股板塊資金流向追蹤器 (合併版)"""
     
     def __init__(self):
-        self.timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        # 使用台北時區作為時間基準（不在初始化時鎖定時間）
+        self.tz = ZoneInfo('Asia/Taipei')
+        self.timestamp = None
         self.results = []
         self.output_dir = Path('output')
         self.output_dir.mkdir(exist_ok=True)
+
+    def get_timestamp(self) -> str:
+        """即時抓取電腦時間（台北時區）並回傳格式化字串。"""
+        return datetime.now(self.tz).strftime('%Y-%m-%d %H:%M:%S %Z')
     
     def fetch_sector_data(self) -> List[Dict]:
         """抓取美股板塊實時數據"""
@@ -189,13 +196,13 @@ class SectorFlowTracker:
         """生成 Markdown 報告（保留美股完整信息）"""
         report = f"""# 🌐 美股板塊資金流向 → 台股族群對應報告
 
-**更新時間:** {self.timestamp} (台北時間)
+    **更新時間:** {self.get_timestamp()} (台北時間)
 
----
+    ---
 
-## 📈 資金流向排名 (TOP 5 - 資金流入)
+    ## 📈 資金流向排名 (TOP 5 - 資金流入)
 
-"""
+    """
         
         # TOP 5 資金流入
         for i, data_item in enumerate(data[:5], 1):
@@ -229,7 +236,7 @@ class SectorFlowTracker:
     def save_to_json(self, data: List[Dict], filename: str = 'sector_flow_data.json'):
         """保存為 JSON 格式"""
         output = {
-            'update_time': self.timestamp,
+            'update_time': self.get_timestamp(),
             'data': data
         }
         
