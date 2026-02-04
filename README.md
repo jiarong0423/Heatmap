@@ -71,31 +71,31 @@
 
 | 美股板塊 | 名稱 | 對應台股族群 |
 |---------|------|-------------|
-| **XLK** | 科技 Technology | 半導體, IC設計, 晶圓代工, 電腦及週邊, 光電, 通訊網路 |
-| **XLF** | 金融 Financials | 金融 |
-| **XLV** | 醫療保健 Healthcare | 生技醫療 |
-| **XLE** | 能源 Energy | 太陽能 |
-| **XLI** | 工業 Industrials | 航運 |
-| **XLP** | 必需消費 Consumer Staples | 食品 |
-| **XLY** | 非必需消費 Consumer Discretionary | 汽車, 電動車 |
-| **XLB** | 原物料 Materials | 鋼鐵, 塑膠, 水泥 |
-| **XLC** | 通訊服務 Communication Services | 通訊網路 |
-| **XLRE** | 房地產 Real Estate | （無對應台股族群） |
-| **XLU** | 公用事業 Utilities | （無對應台股族群） |
+| XLK | 科技 Technology | 半導體, IC設計, 晶圓代工, 電腦及週邊, 光電, 通訊網路 |
+| XLF | 金融 Financials | 金融 |
+| XLV | 醫療保健 Healthcare | 生技醫療 |
+| XLE | 能源 Energy | 太陽能 |
+| XLI | 工業 Industrials | 航運 |
+| XLP | 必需消費 Consumer Staples | 食品 |
+| XLY | 非必需消費 Consumer Discretionary | 汽車, 電動車 |
+| XLB | 原物料 Materials | 鋼鐵, 塑膠, 水泥 |
+| XLC | 通訊服務 Communication Services | 通訊網路 |
+| XLRE | 房地產 Real Estate | （無對應台股族群） |
+| XLU | 公用事業 Utilities | （無對應台股族群） |
 
 ## 🚀 主題板塊對應表 (5 檔)
 
 | 美股板塊 | 名稱 | 對應台股族群 |
 |---------|------|-------------|
-| **TAN** | 太陽能 Solar Energy | 太陽能 |
-| **SOXX** | 半導體 Semiconductors | 半導體, IC設計, 晶圓代工 |
-| **CLOU** | 雲端運算 Cloud Computing | 電子零組件, 通訊網路 |
-| **CARZ** | 電動車 EV | 汽車, 電動車 |
-| **LIT** | 鋰電池 Lithium Battery | 電池 |
+| TAN | 太陽能 Solar Energy | 太陽能 |
+| SOXX | 半導體 Semiconductors | 半導體, IC設計, 晶圓代工 |
+| CLOU | 雲端運算 Cloud Computing | 電子零組件, 通訊網路 |
+| CARZ | 電動車 EV | 汽車, 電動車 |
+| LIT | 鋰電池 Lithium Battery | 電池 |
 
 ## 📈 台股族群清單 (19 個)
 
-🇹🇼 **完整族群對應**
+🇹🇼 完整族群對應
 
 | # | 族群名稱 | 對應美股板塊 |
 |---|---------|------------|
