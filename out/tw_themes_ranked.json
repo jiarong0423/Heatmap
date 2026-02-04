@@ -1,0 +1,258 @@
+[
+  {
+    "tw_theme": "太陽能",
+    "score_change_pct": 3.7327,
+    "sources": [
+      {
+        "us_sector_ticker": "TAN",
+        "us_sector_name": "太陽能 Solar Energy",
+        "change_pct": 3.7327
+      },
+      {
+        "us_sector_ticker": "XLE",
+        "us_sector_name": "能源 Energy",
+        "change_pct": 1.3064
+      }
+    ],
+    "stock_count": 10
+  },
+  {
+    "tw_theme": "鋼鐵",
+    "score_change_pct": 1.7748,
+    "sources": [
+      {
+        "us_sector_ticker": "XLB",
+        "us_sector_name": "原物料 Materials",
+        "change_pct": 1.7748
+      }
+    ],
+    "stock_count": 10
+  },
+  {
+    "tw_theme": "塑膠",
+    "score_change_pct": 1.7748,
+    "sources": [
+      {
+        "us_sector_ticker": "XLB",
+        "us_sector_name": "原物料 Materials",
+        "change_pct": 1.7748
+      }
+    ],
+    "stock_count": 10
+  },
+  {
+    "tw_theme": "水泥",
+    "score_change_pct": 1.7748,
+    "sources": [
+      {
+        "us_sector_ticker": "XLB",
+        "us_sector_name": "原物料 Materials",
+        "change_pct": 1.7748
+      }
+    ],
+    "stock_count": 10
+  },
+  {
+    "tw_theme": "生技醫療",
+    "score_change_pct": 1.3108,
+    "sources": [
+      {
+        "us_sector_ticker": "XLV",
+        "us_sector_name": "醫療保健 Healthcare",
+        "change_pct": 1.3108
+      }
+    ],
+    "stock_count": 10
+  },
+  {
+    "tw_theme": "食品",
+    "score_change_pct": 1.2344,
+    "sources": [
+      {
+        "us_sector_ticker": "XLP",
+        "us_sector_name": "必需消費 Consumer Staples",
+        "change_pct": 1.2344
+      }
+    ],
+    "stock_count": 10
+  },
+  {
+    "tw_theme": "金融",
+    "score_change_pct": 0.7379,
+    "sources": [
+      {
+        "us_sector_ticker": "XLF",
+        "us_sector_name": "金融 Financials",
+        "change_pct": 0.7379
+      }
+    ],
+    "stock_count": 10
+  },
+  {
+    "tw_theme": "航運",
+    "score_change_pct": 0.0474,
+    "sources": [
+      {
+        "us_sector_ticker": "XLI",
+        "us_sector_name": "工業 Industrials",
+        "change_pct": 0.0474
+      }
+    ],
+    "stock_count": 10
+  },
+  {
+    "tw_theme": "電子零組件",
+    "score_change_pct": 0.0231,
+    "sources": [
+      {
+        "us_sector_ticker": "CLOU",
+        "us_sector_name": "雲端運算 Cloud Computing",
+        "change_pct": 0.0231
+      }
+    ],
+    "stock_count": 10
+  },
+  {
+    "tw_theme": "通訊網路",
+    "score_change_pct": 0.0231,
+    "sources": [
+      {
+        "us_sector_ticker": "CLOU",
+        "us_sector_name": "雲端運算 Cloud Computing",
+        "change_pct": 0.0231
+      },
+      {
+        "us_sector_ticker": "XLC",
+        "us_sector_name": "通訊服務 Communication Services",
+        "change_pct": -0.3907
+      },
+      {
+        "us_sector_ticker": "XLK",
+        "us_sector_name": "科技 Technology",
+        "change_pct": -2.4141
+      }
+    ],
+    "stock_count": 10
+  },
+  {
+    "tw_theme": "汽車",
+    "score_change_pct": -0.0868,
+    "sources": [
+      {
+        "us_sector_ticker": "XLY",
+        "us_sector_name": "非必需消費 Consumer Discretionary",
+        "change_pct": -0.0868
+      },
+      {
+        "us_sector_ticker": "CARZ",
+        "us_sector_name": "電動車 EV",
+        "change_pct": -0.2343
+      }
+    ],
+    "stock_count": 10
+  },
+  {
+    "tw_theme": "電動車",
+    "score_change_pct": -0.0868,
+    "sources": [
+      {
+        "us_sector_ticker": "XLY",
+        "us_sector_name": "非必需消費 Consumer Discretionary",
+        "change_pct": -0.0868
+      },
+      {
+        "us_sector_ticker": "CARZ",
+        "us_sector_name": "電動車 EV",
+        "change_pct": -0.2343
+      }
+    ],
+    "stock_count": 10
+  },
+  {
+    "tw_theme": "電池",
+    "score_change_pct": -1.7373,
+    "sources": [
+      {
+        "us_sector_ticker": "LIT",
+        "us_sector_name": "鋰電池 Lithium Battery",
+        "change_pct": -1.7373
+      }
+    ],
+    "stock_count": 10
+  },
+  {
+    "tw_theme": "半導體",
+    "score_change_pct": -2.4141,
+    "sources": [
+      {
+        "us_sector_ticker": "XLK",
+        "us_sector_name": "科技 Technology",
+        "change_pct": -2.4141
+      },
+      {
+        "us_sector_ticker": "SOXX",
+        "us_sector_name": "半導體 Semiconductors",
+        "change_pct": -4.0497
+      }
+    ],
+    "stock_count": 10
+  },
+  {
+    "tw_theme": "IC設計",
+    "score_change_pct": -2.4141,
+    "sources": [
+      {
+        "us_sector_ticker": "XLK",
+        "us_sector_name": "科技 Technology",
+        "change_pct": -2.4141
+      },
+      {
+        "us_sector_ticker": "SOXX",
+        "us_sector_name": "半導體 Semiconductors",
+        "change_pct": -4.0497
+      }
+    ],
+    "stock_count": 10
+  },
+  {
+    "tw_theme": "晶圓代工",
+    "score_change_pct": -2.4141,
+    "sources": [
+      {
+        "us_sector_ticker": "XLK",
+        "us_sector_name": "科技 Technology",
+        "change_pct": -2.4141
+      },
+      {
+        "us_sector_ticker": "SOXX",
+        "us_sector_name": "半導體 Semiconductors",
+        "change_pct": -4.0497
+      }
+    ],
+    "stock_count": 10
+  },
+  {
+    "tw_theme": "電腦及週邊",
+    "score_change_pct": -2.4141,
+    "sources": [
+      {
+        "us_sector_ticker": "XLK",
+        "us_sector_name": "科技 Technology",
+        "change_pct": -2.4141
+      }
+    ],
+    "stock_count": 10
+  },
+  {
+    "tw_theme": "光電",
+    "score_change_pct": -2.4141,
+    "sources": [
+      {
+        "us_sector_ticker": "XLK",
+        "us_sector_name": "科技 Technology",
+        "change_pct": -2.4141
+      }
+    ],
+    "stock_count": 8
+  }
+]

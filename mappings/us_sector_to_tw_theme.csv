@@ -1,0 +1,29 @@
+us_sector_ticker,us_sector_name,tw_theme
+XLK,科技 Technology,半導體
+XLK,科技 Technology,IC設計
+XLK,科技 Technology,晶圓代工
+XLK,科技 Technology,電腦及週邊
+XLK,科技 Technology,光電
+XLK,科技 Technology,通訊網路
+XLF,金融 Financials,金融
+XLV,醫療保健 Healthcare,生技醫療
+XLE,能源 Energy,太陽能
+XLI,工業 Industrials,航運
+XLP,必需消費 Consumer Staples,食品
+XLY,非必需消費 Consumer Discretionary,汽車
+XLY,非必需消費 Consumer Discretionary,電動車
+XLB,原物料 Materials,鋼鐵
+XLB,原物料 Materials,塑膠
+XLB,原物料 Materials,水泥
+XLC,通訊服務 Communication Services,通訊網路
+XLRE,房地產 Real Estate,
+XLU,公用事業 Utilities,
+TAN,太陽能 Solar Energy,太陽能
+SOXX,半導體 Semiconductors,半導體
+SOXX,半導體 Semiconductors,IC設計
+SOXX,半導體 Semiconductors,晶圓代工
+CLOU,雲端運算 Cloud Computing,電子零組件
+CLOU,雲端運算 Cloud Computing,通訊網路
+CARZ,電動車 EV,汽車
+CARZ,電動車 EV,電動車
+LIT,鋰電池 Lithium Battery,電池
