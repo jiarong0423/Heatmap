@@ -10,6 +10,42 @@ import json
 from datetime import datetime, timedelta
 import yfinance as yf
 import os
+import logging
+from functools import wraps
+import time
+
+# Logging setup
+os.makedirs('logs', exist_ok=True)
+logger = logging.getLogger('sector_flow_tracker')
+logger.setLevel(logging.INFO)
+fmt = logging.Formatter('%(asctime)s %(levelname)s %(message)s')
+fh = logging.FileHandler('logs/tracker.log', encoding='utf-8')
+fh.setFormatter(fmt)
+ch = logging.StreamHandler()
+ch.setFormatter(fmt)
+logger.addHandler(fh)
+logger.addHandler(ch)
+
+
+def retry_on_exception(retries=3, delay=1, backoff=2):
+    def decorator(func):
+        @wraps(func)
+        def wrapper(*args, **kwargs):
+            _delay = delay
+            last_exc = None
+            for attempt in range(1, retries + 1):
+                try:
+                    return func(*args, **kwargs)
+                except Exception as e:
+                    last_exc = e
+                    logger.warning("%s attempt %d/%d failed: %s", func.__name__, attempt, retries, e)
+                    if attempt < retries:
+                        time.sleep(_delay)
+                        _delay *= backoff
+            logger.error("%s failed after %d attempts", func.__name__, retries)
+            raise last_exc
+        return wrapper
+    return decorator
 
 # 美股核心板塊 ETF (11大板塊)
 US_SECTOR_ETFS = {
@@ -145,10 +181,11 @@ class SectorFlowTracker:
     def __init__(self, include_themes=True):
         self.results = []
         self.include_themes = include_themes
+        logger.info('SectorFlowTracker initialized (include_themes=%s)', include_themes)
         
     def fetch_sector_data(self):
         """抓取美股板塊資料"""
-        print("🔍 正在抓取美股板塊資料...\n")
+        logger.info("🔍 正在抓取美股板塊資料...")
         sector_data = []
         
         # 合併主要板塊和主題 ETF
@@ -158,23 +195,23 @@ class SectorFlowTracker:
         
         for ticker, name in all_etfs.items():
             try:
-                stock = yf.Ticker(ticker)
-                hist = stock.history(period='5d')
-                
-                if len(hist) >= 2:
+                # 使用帶重試的 helper 取得資料
+                stock, hist = self._get_ticker_history(ticker)
+
+                if hist is not None and len(hist) >= 2:
                     latest_close = hist['Close'].iloc[-1]
                     prev_close = hist['Close'].iloc[-2]
                     change_pct = ((latest_close - prev_close) / prev_close) * 100
                     volume = hist['Volume'].iloc[-1]
                     avg_volume = hist['Volume'].mean()
-                    volume_ratio = volume / avg_volume
-                    
+                    volume_ratio = volume / avg_volume if avg_volume > 0 else 1
+
                     # 計算資金流向強度
                     flow_strength = change_pct * volume_ratio
-                    
+
                     # 判斷板塊類型
                     sector_type = '核心板塊' if ticker in US_SECTOR_ETFS else '主題板塊'
-                    
+
                     sector_data.append({
                         'ticker': ticker,
                         'name': name,
@@ -185,14 +222,22 @@ class SectorFlowTracker:
                         'volume_ratio': round(volume_ratio, 2),
                         'flow_strength': round(flow_strength, 2)
                     })
-                    
+
                     emoji = '🔥' if change_pct > 3 else '📈' if change_pct > 0 else '📉'
-                    print(f"{emoji} {ticker:6s} ({name:20s}): {change_pct:+6.2f}% | 量能: {volume_ratio:.2f}x")
-                
+                    logger.info("%s %s (%s): %+.2f%% | 量能: %.2fx", emoji, ticker, name, change_pct, volume_ratio)
+                else:
+                    logger.warning("No sufficient history for %s", ticker)
             except Exception as e:
-                print(f"❌ {ticker} 抓取失敗: {e}")
+                logger.exception("%s 抓取失敗", ticker)
         
         return sorted(sector_data, key=lambda x: x['flow_strength'], reverse=True)
+
+    @retry_on_exception(retries=3, delay=1, backoff=2)
+    def _get_ticker_history(self, ticker):
+        """取得單支 ticker 的 history（有重試）"""
+        stock = yf.Ticker(ticker)
+        hist = stock.history(period='5d')
+        return stock, hist
     
     def map_to_taiwan_sectors(self, us_sectors):
         """對應到台股族群"""
