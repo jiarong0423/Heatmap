@@ -1,20 +1,149 @@
 {
-  "update_time": "2026-02-06T00:54:24.779552+08:00",
-  "us_time": "2026-02-05 11:54:24 EST",
-  "tw_time": "2026-02-06 00:54:24 CST",
-  "market_status": "盤中交易",
+  "update_time": "2026-02-07T12:54:09.833238+08:00",
+  "us_time": "2026-02-06 23:54:09 EST",
+  "tw_time": "2026-02-07 12:54:09 CST",
+  "market_status": "休市",
   "is_realtime": true,
   "data_count": 16,
   "sectors": [
     {
+      "us_sector": "太陽能 Solar Energy",
+      "us_ticker": "TAN",
+      "sector_type": "主題板塊",
+      "us_change": 3.42,
+      "current_price": 57.74,
+      "prev_close": 55.83,
+      "flow_strength": 64.59,
+      "volume_ratio": 18.88,
+      "tw_sectors": [
+        "太陽能"
+      ],
+      "tw_stocks": [
+        "6488 環球晶",
+        "3576 聯合再生",
+        "6443 元晶",
+        "3514 昱晶",
+        "6869 雲豹能源",
+        "6531 愛地雅",
+        "3452 益通",
+        "6274 台燿",
+        "3561 昇陽光電",
+        "6417 韋僑"
+      ],
+      "industry_detail": "太陽能電池、太陽能模組、太陽能系統",
+      "related_themes": [],
+      "signal": "🔥🔥 爆量流入",
+      "strength_level": 5,
+      "last_update": "12:54:08",
+      "market_status": "休市"
+    },
+    {
+      "us_sector": "雲端運算 Cloud Computing",
+      "us_ticker": "CLOU",
+      "sector_type": "主題板塊",
+      "us_change": 2.01,
+      "current_price": 19.29,
+      "prev_close": 18.91,
+      "flow_strength": 45.57,
+      "volume_ratio": 22.67,
+      "tw_sectors": [
+        "電子零組件",
+        "通訊網路"
+      ],
+      "tw_stocks": [
+        "2317 鴻海",
+        "2382 廣達",
+        "2357 華碩",
+        "2324 仁寶",
+        "3231 緯創",
+        "2301 光寶科",
+        "2308 台達電",
+        "6669 緯穎",
+        "6451 訊芯-KY",
+        "6561 是方"
+      ],
+      "industry_detail": "雲端伺服器、電腦製造、網通設備",
+      "related_themes": [],
+      "signal": "🔥🔥 爆量流入",
+      "strength_level": 5,
+      "last_update": "12:54:09",
+      "market_status": "休市"
+    },
+    {
+      "us_sector": "金融 Financials",
+      "us_ticker": "XLF",
+      "sector_type": "核心板塊",
+      "us_change": 1.82,
+      "current_price": 54.26,
+      "prev_close": 53.29,
+      "flow_strength": 40.46,
+      "volume_ratio": 22.23,
+      "tw_sectors": [
+        "金融"
+      ],
+      "tw_stocks": [
+        "2881 富邦金",
+        "2882 國泰金",
+        "2886 兆豐金",
+        "2891 中信金",
+        "2884 玉山金",
+        "2892 第一金",
+        "5880 合庫金",
+        "2887 台新金",
+        "2880 華南金",
+        "2888 新光金"
+      ],
+      "industry_detail": "金控、銀行、證券、保險經紀、資產管理",
+      "related_themes": [
+        "FINX"
+      ],
+      "signal": "🔥🔥 爆量流入",
+      "strength_level": 5,
+      "last_update": "12:54:04",
+      "market_status": "休市"
+    },
+    {
+      "us_sector": "原物料 Materials",
+      "us_ticker": "XLB",
+      "sector_type": "核心板塊",
+      "us_change": 2.0,
+      "current_price": 51.51,
+      "prev_close": 50.5,
+      "flow_strength": 34.51,
+      "volume_ratio": 17.25,
+      "tw_sectors": [
+        "鋼鐵",
+        "塑膠",
+        "水泥"
+      ],
+      "tw_stocks": [
+        "2002 中鋼",
+        "2006 東和鋼鐵",
+        "1301 台塑",
+        "1303 南亞",
+        "1326 台化",
+        "1101 台泥",
+        "1102 亞泥",
+        "1304 台聚",
+        "1310 台苯",
+        "1402 遠東新"
+      ],
+      "industry_detail": "鋼鐵、化學原料、塑化、水泥",
+      "related_themes": [],
+      "signal": "🔥🔥 爆量流入",
+      "strength_level": 5,
+      "last_update": "12:54:06",
+      "market_status": "休市"
+    },
+    {
       "us_sector": "科技 Technology",
       "us_ticker": "XLK",
       "sector_type": "核心板塊",
-      "us_change": -0.49,
-      "current_price": 137.45,
-      "prev_close": 138.12,
-      "flow_strength": -0.0,
-      "volume_ratio": 0.0,
+      "us_change": 4.06,
+      "current_price": 141.13,
+      "prev_close": 135.63,
+      "flow_strength": 30.03,
+      "volume_ratio": 7.41,
       "tw_sectors": [
         "半導體",
         "IC設計",
@@ -41,119 +170,20 @@
         "IGV",
         "CLOU"
       ],
-      "signal": "➡️ 持平",
-      "strength_level": 2,
-      "last_update": "00:54:17",
-      "market_status": "盤中交易"
-    },
-    {
-      "us_sector": "金融 Financials",
-      "us_ticker": "XLF",
-      "sector_type": "核心板塊",
-      "us_change": -0.96,
-      "current_price": 53.44,
-      "prev_close": 53.96,
-      "flow_strength": -0.0,
-      "volume_ratio": 0.0,
-      "tw_sectors": [
-        "金融"
-      ],
-      "tw_stocks": [
-        "2881 富邦金",
-        "2882 國泰金",
-        "2886 兆豐金",
-        "2891 中信金",
-        "2884 玉山金",
-        "2892 第一金",
-        "5880 合庫金",
-        "2887 台新金",
-        "2880 華南金",
-        "2888 新光金"
-      ],
-      "industry_detail": "金控、銀行、證券、保險經紀、資產管理",
-      "related_themes": [
-        "FINX"
-      ],
-      "signal": "➡️ 持平",
-      "strength_level": 2,
-      "last_update": "00:54:18",
-      "market_status": "盤中交易"
-    },
-    {
-      "us_sector": "醫療保健 Healthcare",
-      "us_ticker": "XLV",
-      "sector_type": "核心板塊",
-      "us_change": -0.39,
-      "current_price": 155.42,
-      "prev_close": 156.03,
-      "flow_strength": -0.0,
-      "volume_ratio": 0.0,
-      "tw_sectors": [
-        "生技醫療"
-      ],
-      "tw_stocks": [
-        "4736 泰博",
-        "6547 高端疫苗",
-        "6446 藥華藥",
-        "1789 神隆",
-        "4174 浩鼎",
-        "6535 順藥",
-        "4743 合一",
-        "6469 大樹",
-        "1777 生泰",
-        "4120 友華"
-      ],
-      "industry_detail": "西藥製劑、生技醫療、醫療器材、診斷設備、醫療服務",
-      "related_themes": [
-        "IHI"
-      ],
-      "signal": "➡️ 持平",
-      "strength_level": 2,
-      "last_update": "00:54:18",
-      "market_status": "盤中交易"
-    },
-    {
-      "us_sector": "能源 Energy",
-      "us_ticker": "XLE",
-      "sector_type": "核心板塊",
-      "us_change": -2.06,
-      "current_price": 51.74,
-      "prev_close": 52.83,
-      "flow_strength": -0.0,
-      "volume_ratio": 0.0,
-      "tw_sectors": [
-        "太陽能"
-      ],
-      "tw_stocks": [
-        "6488 環球晶",
-        "3576 聯合再生",
-        "6443 元晶",
-        "3514 昱晶",
-        "6869 雲豹能源",
-        "6531 愛地雅",
-        "3452 益通",
-        "6274 台燿",
-        "3561 昇陽光電",
-        "6417 韋僑"
-      ],
-      "industry_detail": "太陽能電池、太陽能模組、太陽能系統、綠能設備",
-      "related_themes": [
-        "TAN"
-      ],
-      "signal": "➡️ 持平",
-      "strength_level": 2,
-      "last_update": "00:54:18",
-      "market_status": "盤中交易"
+      "signal": "🔥🔥 爆量流入",
+      "strength_level": 5,
+      "last_update": "12:54:03",
+      "market_status": "休市"
     },
     {
       "us_sector": "工業 Industrials",
       "us_ticker": "XLI",
       "sector_type": "核心板塊",
-      "us_change": -0.31,
-      "current_price": 168.87,
-      "prev_close": 169.39,
-      "flow_strength": -0.0,
-      "volume_ratio": 0.0,
+      "us_change": 2.86,
+      "current_price": 173.18,
+      "prev_close": 168.37,
+      "flow_strength": 28.3,
+      "volume_ratio": 9.91,
       "tw_sectors": [
         "航運"
       ],
@@ -173,20 +203,104 @@
       "related_themes": [
         "BOTZ"
       ],
-      "signal": "➡️ 持平",
-      "strength_level": 2,
-      "last_update": "00:54:19",
-      "market_status": "盤中交易"
+      "signal": "🔥🔥 爆量流入",
+      "strength_level": 5,
+      "last_update": "12:54:05",
+      "market_status": "休市"
+    },
+    {
+      "us_sector": "房地產 Real Estate",
+      "us_ticker": "XLRE",
+      "sector_type": "核心板塊",
+      "us_change": 1.84,
+      "current_price": 41.99,
+      "prev_close": 41.23,
+      "flow_strength": 27.31,
+      "volume_ratio": 14.81,
+      "tw_sectors": [],
+      "tw_stocks": [],
+      "industry_detail": "無直接對應台股產業",
+      "related_themes": [],
+      "signal": "🔥🔥 爆量流入",
+      "strength_level": 5,
+      "last_update": "12:54:06",
+      "market_status": "休市"
+    },
+    {
+      "us_sector": "醫療保健 Healthcare",
+      "us_ticker": "XLV",
+      "sector_type": "核心板塊",
+      "us_change": 1.85,
+      "current_price": 157.71,
+      "prev_close": 154.84,
+      "flow_strength": 25.67,
+      "volume_ratio": 13.85,
+      "tw_sectors": [
+        "生技醫療"
+      ],
+      "tw_stocks": [
+        "4736 泰博",
+        "6547 高端疫苗",
+        "6446 藥華藥",
+        "1789 神隆",
+        "4174 浩鼎",
+        "6535 順藥",
+        "4743 合一",
+        "6469 大樹",
+        "1777 生泰",
+        "4120 友華"
+      ],
+      "industry_detail": "西藥製劑、生技醫療、醫療器材、診斷設備、醫療服務",
+      "related_themes": [
+        "IHI"
+      ],
+      "signal": "🔥🔥 爆量流入",
+      "strength_level": 5,
+      "last_update": "12:54:04",
+      "market_status": "休市"
+    },
+    {
+      "us_sector": "能源 Energy",
+      "us_ticker": "XLE",
+      "sector_type": "核心板塊",
+      "us_change": 1.99,
+      "current_price": 53.25,
+      "prev_close": 52.21,
+      "flow_strength": 17.31,
+      "volume_ratio": 8.69,
+      "tw_sectors": [
+        "太陽能"
+      ],
+      "tw_stocks": [
+        "6488 環球晶",
+        "3576 聯合再生",
+        "6443 元晶",
+        "3514 昱晶",
+        "6869 雲豹能源",
+        "6531 愛地雅",
+        "3452 益通",
+        "6274 台燿",
+        "3561 昇陽光電",
+        "6417 韋僑"
+      ],
+      "industry_detail": "太陽能電池、太陽能模組、太陽能系統、綠能設備",
+      "related_themes": [
+        "TAN"
+      ],
+      "signal": "🔥🔥 爆量流入",
+      "strength_level": 5,
+      "last_update": "12:54:04",
+      "market_status": "休市"
     },
     {
       "us_sector": "必需消費 Consumer Staples",
       "us_ticker": "XLP",
       "sector_type": "核心板塊",
-      "us_change": -0.44,
-      "current_price": 86.61,
-      "prev_close": 86.99,
-      "flow_strength": -0.0,
-      "volume_ratio": 0.0,
+      "us_change": 1.17,
+      "current_price": 87.94,
+      "prev_close": 86.92,
+      "flow_strength": 16.61,
+      "volume_ratio": 14.15,
       "tw_sectors": [
         "食品"
       ],
@@ -204,20 +318,102 @@
       ],
       "industry_detail": "食品製造、飲品",
       "related_themes": [],
-      "signal": "➡️ 持平",
-      "strength_level": 2,
-      "last_update": "00:54:19",
-      "market_status": "盤中交易"
+      "signal": "🔥🔥 爆量流入",
+      "strength_level": 5,
+      "last_update": "12:54:05",
+      "market_status": "休市"
+    },
+    {
+      "us_sector": "鋰電池 Lithium Battery",
+      "us_ticker": "LIT",
+      "sector_type": "主題板塊",
+      "us_change": 4.48,
+      "current_price": 71.09,
+      "prev_close": 68.04,
+      "flow_strength": 12.47,
+      "volume_ratio": 2.78,
+      "tw_sectors": [
+        "電池"
+      ],
+      "tw_stocks": [
+        "5371 中光電",
+        "6625 必應",
+        "6121 新普",
+        "3481 群創",
+        "6116 彩晶",
+        "1513 中興電",
+        "1503 士電",
+        "2308 台達電",
+        "1605 華新",
+        "1802 台玻"
+      ],
+      "industry_detail": "鋰電池、電池材料、儲能系統",
+      "related_themes": [],
+      "signal": "🔥🔥 爆量流入",
+      "strength_level": 5,
+      "last_update": "12:54:09",
+      "market_status": "休市"
+    },
+    {
+      "us_sector": "半導體 Semiconductors",
+      "us_ticker": "SOXX",
+      "sector_type": "主題板塊",
+      "us_change": 5.34,
+      "current_price": 348.51,
+      "prev_close": 330.83,
+      "flow_strength": 12.01,
+      "volume_ratio": 2.25,
+      "tw_sectors": [
+        "半導體",
+        "IC設計",
+        "晶圓代工"
+      ],
+      "tw_stocks": [
+        "2330 台積電",
+        "2454 聯發科",
+        "2303 聯電",
+        "3711 日月光投控",
+        "3034 聯詠",
+        "2408 南亞科",
+        "6770 力積電",
+        "3443 創意",
+        "3661 世芯-KY",
+        "5274 信驊"
+      ],
+      "industry_detail": "IC設計、晶圓代工、封裝測試",
+      "related_themes": [],
+      "signal": "🔥🔥 爆量流入",
+      "strength_level": 5,
+      "last_update": "12:54:08",
+      "market_status": "休市"
+    },
+    {
+      "us_sector": "公用事業 Utilities",
+      "us_ticker": "XLU",
+      "sector_type": "核心板塊",
+      "us_change": 0.58,
+      "current_price": 43.35,
+      "prev_close": 43.1,
+      "flow_strength": 6.23,
+      "volume_ratio": 10.74,
+      "tw_sectors": [],
+      "tw_stocks": [],
+      "industry_detail": "無直接對應台股產業",
+      "related_themes": [],
+      "signal": "🔥 強勁流入",
+      "strength_level": 4,
+      "last_update": "12:54:07",
+      "market_status": "休市"
     },
     {
       "us_sector": "非必需消費 Consumer Discretionary",
       "us_ticker": "XLY",
       "sector_type": "核心板塊",
-      "us_change": -1.66,
-      "current_price": 118.11,
-      "prev_close": 120.1,
-      "flow_strength": -0.0,
-      "volume_ratio": 0.0,
+      "us_change": 0.41,
+      "current_price": 117.99,
+      "prev_close": 117.51,
+      "flow_strength": 3.06,
+      "volume_ratio": 7.5,
       "tw_sectors": [
         "汽車",
         "電動車"
@@ -239,216 +435,20 @@
         "XRT",
         "CARZ"
       ],
-      "signal": "➡️ 持平",
-      "strength_level": 2,
-      "last_update": "00:54:20",
-      "market_status": "盤中交易"
-    },
-    {
-      "us_sector": "原物料 Materials",
-      "us_ticker": "XLB",
-      "sector_type": "核心板塊",
-      "us_change": -2.15,
-      "current_price": 50.77,
-      "prev_close": 51.89,
-      "flow_strength": -0.0,
-      "volume_ratio": 0.0,
-      "tw_sectors": [
-        "鋼鐵",
-        "塑膠",
-        "水泥"
-      ],
-      "tw_stocks": [
-        "2002 中鋼",
-        "2006 東和鋼鐵",
-        "1301 台塑",
-        "1303 南亞",
-        "1326 台化",
-        "1101 台泥",
-        "1102 亞泥",
-        "1304 台聚",
-        "1310 台苯",
-        "1402 遠東新"
-      ],
-      "industry_detail": "鋼鐵、化學原料、塑化、水泥",
-      "related_themes": [],
-      "signal": "➡️ 持平",
-      "strength_level": 2,
-      "last_update": "00:54:21",
-      "market_status": "盤中交易"
-    },
-    {
-      "us_sector": "房地產 Real Estate",
-      "us_ticker": "XLRE",
-      "sector_type": "核心板塊",
-      "us_change": -0.23,
-      "current_price": 41.37,
-      "prev_close": 41.46,
-      "flow_strength": -0.0,
-      "volume_ratio": 0.0,
-      "tw_sectors": [],
-      "tw_stocks": [],
-      "industry_detail": "無直接對應台股產業",
-      "related_themes": [],
-      "signal": "➡️ 持平",
-      "strength_level": 2,
-      "last_update": "00:54:22",
-      "market_status": "盤中交易"
-    },
-    {
-      "us_sector": "公用事業 Utilities",
-      "us_ticker": "XLU",
-      "sector_type": "核心板塊",
-      "us_change": -0.14,
-      "current_price": 43.02,
-      "prev_close": 43.08,
-      "flow_strength": -0.0,
-      "volume_ratio": 0.0,
-      "tw_sectors": [],
-      "tw_stocks": [],
-      "industry_detail": "無直接對應台股產業",
-      "related_themes": [],
-      "signal": "➡️ 持平",
-      "strength_level": 2,
-      "last_update": "00:54:22",
-      "market_status": "盤中交易"
-    },
-    {
-      "us_sector": "通訊服務 Communication Services",
-      "us_ticker": "XLC",
-      "sector_type": "核心板塊",
-      "us_change": -0.63,
-      "current_price": 116.06,
-      "prev_close": 116.8,
-      "flow_strength": -0.0,
-      "volume_ratio": 0.0,
-      "tw_sectors": [
-        "通訊網路"
-      ],
-      "tw_stocks": [
-        "2412 中華電",
-        "3045 台灣大",
-        "4904 遠傳",
-        "2454 聯發科",
-        "3443 創意",
-        "6451 訊芯-KY",
-        "6669 緯穎",
-        "2474 可成",
-        "3231 緯創",
-        "6176 瑞儀"
-      ],
-      "industry_detail": "電信服務、網路服務",
-      "related_themes": [],
-      "signal": "➡️ 持平",
-      "strength_level": 2,
-      "last_update": "00:54:22",
-      "market_status": "盤中交易"
-    },
-    {
-      "us_sector": "太陽能 Solar Energy",
-      "us_ticker": "TAN",
-      "sector_type": "主題板塊",
-      "us_change": -2.89,
-      "current_price": 56.42,
-      "prev_close": 58.1,
-      "flow_strength": -0.0,
-      "volume_ratio": 0.0,
-      "tw_sectors": [
-        "太陽能"
-      ],
-      "tw_stocks": [
-        "6488 環球晶",
-        "3576 聯合再生",
-        "6443 元晶",
-        "3514 昱晶",
-        "6869 雲豹能源",
-        "6531 愛地雅",
-        "3452 益通",
-        "6274 台燿",
-        "3561 昇陽光電",
-        "6417 韋僑"
-      ],
-      "industry_detail": "太陽能電池、太陽能模組、太陽能系統",
-      "related_themes": [],
-      "signal": "➡️ 持平",
-      "strength_level": 2,
-      "last_update": "00:54:23",
-      "market_status": "盤中交易"
-    },
-    {
-      "us_sector": "半導體 Semiconductors",
-      "us_ticker": "SOXX",
-      "sector_type": "主題板塊",
-      "us_change": 0.7,
-      "current_price": 332.68,
-      "prev_close": 330.38,
-      "flow_strength": 0.0,
-      "volume_ratio": 0.0,
-      "tw_sectors": [
-        "半導體",
-        "IC設計",
-        "晶圓代工"
-      ],
-      "tw_stocks": [
-        "2330 台積電",
-        "2454 聯發科",
-        "2303 聯電",
-        "3711 日月光投控",
-        "3034 聯詠",
-        "2408 南亞科",
-        "6770 力積電",
-        "3443 創意",
-        "3661 世芯-KY",
-        "5274 信驊"
-      ],
-      "industry_detail": "IC設計、晶圓代工、封裝測試",
-      "related_themes": [],
-      "signal": "➡️ 持平",
-      "strength_level": 2,
-      "last_update": "00:54:23",
-      "market_status": "盤中交易"
-    },
-    {
-      "us_sector": "雲端運算 Cloud Computing",
-      "us_ticker": "CLOU",
-      "sector_type": "主題板塊",
-      "us_change": -0.77,
-      "current_price": 19.38,
-      "prev_close": 19.53,
-      "flow_strength": -0.0,
-      "volume_ratio": 0.0,
-      "tw_sectors": [
-        "電子零組件",
-        "通訊網路"
-      ],
-      "tw_stocks": [
-        "2317 鴻海",
-        "2382 廣達",
-        "2357 華碩",
-        "2324 仁寶",
-        "3231 緯創",
-        "2301 光寶科",
-        "2308 台達電",
-        "6669 緯穎",
-        "6451 訊芯-KY",
-        "6561 是方"
-      ],
-      "industry_detail": "雲端伺服器、電腦製造、網通設備",
-      "related_themes": [],
-      "signal": "➡️ 持平",
-      "strength_level": 2,
-      "last_update": "00:54:23",
-      "market_status": "盤中交易"
+      "signal": "📈 資金流入",
+      "strength_level": 3,
+      "last_update": "12:54:06",
+      "market_status": "休市"
     },
     {
       "us_sector": "電動車 EV",
       "us_ticker": "CARZ",
       "sector_type": "主題板塊",
-      "us_change": 0.0,
-      "current_price": 83.41,
+      "us_change": 2.02,
+      "current_price": 85.1,
       "prev_close": 83.41,
-      "flow_strength": 0.0,
-      "volume_ratio": 0.02,
+      "flow_strength": 3.03,
+      "volume_ratio": 1.5,
       "tw_sectors": [
         "汽車",
         "電動車"
@@ -467,47 +467,47 @@
       ],
       "industry_detail": "電動車製造、車用電子",
       "related_themes": [],
-      "signal": "➡️ 持平",
-      "strength_level": 2,
-      "last_update": "00:54:24",
-      "market_status": "盤中交易"
+      "signal": "📈 資金流入",
+      "strength_level": 3,
+      "last_update": "12:54:09",
+      "market_status": "休市"
     },
     {
-      "us_sector": "鋰電池 Lithium Battery",
-      "us_ticker": "LIT",
-      "sector_type": "主題板塊",
-      "us_change": -2.21,
-      "current_price": 69.23,
-      "prev_close": 70.79,
-      "flow_strength": -0.0,
-      "volume_ratio": 0.0,
+      "us_sector": "通訊服務 Communication Services",
+      "us_ticker": "XLC",
+      "sector_type": "核心板塊",
+      "us_change": -0.39,
+      "current_price": 115.76,
+      "prev_close": 116.21,
+      "flow_strength": -4.88,
+      "volume_ratio": 12.59,
       "tw_sectors": [
-        "電池"
+        "通訊網路"
       ],
       "tw_stocks": [
-        "5371 中光電",
-        "6625 必應",
-        "6121 新普",
-        "3481 群創",
-        "6116 彩晶",
-        "1513 中興電",
-        "1503 士電",
-        "2308 台達電",
-        "1605 華新",
-        "1802 台玻"
+        "2412 中華電",
+        "3045 台灣大",
+        "4904 遠傳",
+        "2454 聯發科",
+        "3443 創意",
+        "6451 訊芯-KY",
+        "6669 緯穎",
+        "2474 可成",
+        "3231 緯創",
+        "6176 瑞儀"
       ],
-      "industry_detail": "鋰電池、電池材料、儲能系統",
+      "industry_detail": "電信服務、網路服務",
       "related_themes": [],
-      "signal": "➡️ 持平",
-      "strength_level": 2,
-      "last_update": "00:54:24",
-      "market_status": "盤中交易"
+      "signal": "📉 資金流出",
+      "strength_level": 1,
+      "last_update": "12:54:07",
+      "market_status": "休市"
     }
   ],
   "summary": {
-    "inflow_count": 0,
-    "outflow_count": 0,
-    "top_sector": "科技 Technology",
-    "worst_sector": "鋰電池 Lithium Battery"
+    "inflow_count": 15,
+    "outflow_count": 1,
+    "top_sector": "太陽能 Solar Energy",
+    "worst_sector": "通訊服務 Communication Services"
   }
 }
